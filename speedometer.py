@@ -35,7 +35,7 @@ class Solution:
 
        # TODO: Write code below to return a list with the solution to the prompt
        c1 = 0
-       c2 = ary-1
+       c2 = int(ary-1)
        while c1<c2:
         if (self[c1] + self[c2] == target):
             return True
