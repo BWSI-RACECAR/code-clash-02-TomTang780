@@ -61,15 +61,15 @@ class Solution:
         pass
         
 
-def main():
-#     array = input().split(" ")
-#     for x in range (0, len(array)):
-#         array[x] = int(array[x])
-#     target = int(input())
+# def main():
+#      array = input().split(" ")
+#      for x in range (0, len(array)):
+#          array[x] = int(array[x])
+#      target = int(input())
 
-#     tc1 = Solution()
-#     ans = tc1.two_numbers(array, target)
-#     print(ans)
+#      tc1 = Solution()
+#      ans = tc1.two_numbers(array, target)
+#      print(ans)
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
