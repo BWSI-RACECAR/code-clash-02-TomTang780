@@ -53,23 +53,23 @@ class Solution:
     #         c2 += 1
     #     return False
         
-        # for x in ary:
-        #     other_num = target - x
-        #     if other_num in ary:
-        #         return [ary.index(x), ary.index(other_num)]
-        # return False
+        for x in ary:
+            other_num = target - x
+            if other_num in ary:
+                return [ary.index(x), ary.index(other_num)]
+        return False
         pass
         
 
 def main():
-    array = input().split(" ")
-    for x in range (0, len(array)):
-        array[x] = int(array[x])
-    target = int(input())
+#     array = input().split(" ")
+#     for x in range (0, len(array)):
+#         array[x] = int(array[x])
+#     target = int(input())
 
-    tc1 = Solution()
-    ans = tc1.two_numbers(array, target)
-    print(ans)
+#     tc1 = Solution()
+#     ans = tc1.two_numbers(array, target)
+#     print(ans)
 
 if __name__ == "__main__":
     main()
