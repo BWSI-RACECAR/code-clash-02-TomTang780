@@ -37,9 +37,9 @@ class Solution:
        c1 = 0
        c2 = int(ary-1)
        while c1<c2:
-        if (self[c1] + self[c2] == target):
+        if (ary[c1] + ary[c2] == target):
             return True
-        elif (self[c1] + self[c2] < target):
+        elif (ary[c1] + ary[c2] < target):
             c1 += 1
         else:
             c2 -= 1
