@@ -61,7 +61,7 @@ class Solution:
         pass
         
 
-# def main():
+    def main():
 #      array = input().split(" ")
 #      for x in range (0, len(array)):
 #          array[x] = int(array[x])
