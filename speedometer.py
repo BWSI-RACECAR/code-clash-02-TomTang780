@@ -35,14 +35,14 @@ class Solution:
 
        # TODO: Write code below to return a list with the solution to the prompt
        c1 = 0
-       c2 = len(ary) - 1
+       c2 = 1
        while c1<c2:
         if (ary[c1] + ary[c2] == target):
             return True
         elif (ary[c1] + ary[c2] < target):
             c1 += 1
         else:
-            c2 -= 1
+            c2 += 1
         return False
         pass
 
